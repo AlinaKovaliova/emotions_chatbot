@@ -1,0 +1,297 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.14">
+  <diagram name="Page-1" id="aHt1SRORon66hxOYKPh2">
+    <mxGraphModel dx="1726" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Пользователь вводит текст&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="319" y="190" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;Какая эмоция?&lt;/i&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="343" y="610" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Конец&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1010" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Перевод на английский (Google Translator)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="319" y="330" width="191" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Анализ эмоций (DistilBERT Emotion Classifier)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="319" y="470" width="191" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-11" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="354" y="40" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Начало&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Pinn6hETG48Ia0Fb6Zpw-11">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="Pinn6hETG48Ia0Fb6Zpw-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="80" as="sourcePoint" />
+            <mxPoint x="60" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413.6699999999998" y="260" as="sourcePoint" />
+            <mxPoint x="413.67" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413.7399999999998" y="400" as="sourcePoint" />
+            <mxPoint x="413.74" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="412.8699999999998" y="540" as="sourcePoint" />
+            <mxPoint x="412.87" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Pinn6hETG48Ia0Fb6Zpw-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="473.9999999999998" y="660" as="sourcePoint" />
+            <mxPoint x="520" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-30" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="650" y="750" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="Pinn6hETG48Ia0Fb6Zpw-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="64.75999999999976" y="40" as="sourcePoint" />
+            <mxPoint x="65" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-19" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1509,&amp;quot;end&amp;quot;:2202},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1559,&amp;quot;end&amp;quot;:2130},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:1622,&amp;quot;end&amp;quot;:2130},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1622,&amp;quot;end&amp;quot;:1700}]&quot;&gt;Предложить весёлую музыку&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Pinn6hETG48Ia0Fb6Zpw-30">
+          <mxGeometry y="80" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-20" value="&lt;strong&gt;Грусть (sadness)&lt;/strong&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Pinn6hETG48Ia0Fb6Zpw-30">
+          <mxGeometry width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-56" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="550" y="550" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-57" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="Pinn6hETG48Ia0Fb6Zpw-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="64.75999999999976" y="40" as="sourcePoint" />
+            <mxPoint x="150" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-59" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1509,&amp;quot;end&amp;quot;:2202},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1559,&amp;quot;end&amp;quot;:2130},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:1622,&amp;quot;end&amp;quot;:2130},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1788,&amp;quot;end&amp;quot;:1880}]&quot;&gt;&lt;strong&gt;Гнев (anger)&lt;/strong&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Pinn6hETG48Ia0Fb6Zpw-56">
+          <mxGeometry width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-69" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="283" y="750" width="130.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-70" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="Pinn6hETG48Ia0Fb6Zpw-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="64.75999999999976" y="40" as="sourcePoint" />
+            <mxPoint x="65" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-72" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1509,&amp;quot;end&amp;quot;:2202},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1559,&amp;quot;end&amp;quot;:2130},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:1622,&amp;quot;end&amp;quot;:2130},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1960,&amp;quot;end&amp;quot;:2042}]&quot;&gt;&lt;strong&gt;Любовь (love)&lt;/strong&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Pinn6hETG48Ia0Fb6Zpw-69">
+          <mxGeometry width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-87" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1509,&amp;quot;end&amp;quot;:2202},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1559,&amp;quot;end&amp;quot;:2130},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:1622,&amp;quot;end&amp;quot;:2130},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1960,&amp;quot;end&amp;quot;:2042}]&quot;&gt;Назвать эмоцию&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Pinn6hETG48Ia0Fb6Zpw-69">
+          <mxGeometry x="0.25" y="80" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-90" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="Pinn6hETG48Ia0Fb6Zpw-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="64.9599999999997" y="120" as="sourcePoint" />
+            <mxPoint x="65.19999999999993" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-73" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="170" y="600" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-74" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.473;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Pinn6hETG48Ia0Fb6Zpw-73" target="Pinn6hETG48Ia0Fb6Zpw-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="64.75999999999976" y="40" as="sourcePoint" />
+            <mxPoint x="50" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-75" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1509,&amp;quot;end&amp;quot;:2202},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1559,&amp;quot;end&amp;quot;:2130},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:1622,&amp;quot;end&amp;quot;:2130},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1704,&amp;quot;end&amp;quot;:1784}]&quot;&gt;Порекомендовать активный отдых&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Pinn6hETG48Ia0Fb6Zpw-73">
+          <mxGeometry x="-60" y="80" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-76" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1509,&amp;quot;end&amp;quot;:2202},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1559,&amp;quot;end&amp;quot;:2130},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:1622,&amp;quot;end&amp;quot;:2130},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1704,&amp;quot;end&amp;quot;:1784}]&quot;&gt;&lt;strong&gt;Радость (joy)&lt;/strong&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Pinn6hETG48Ia0Fb6Zpw-73">
+          <mxGeometry width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-77" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="460" y="750" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-78" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="Pinn6hETG48Ia0Fb6Zpw-77">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="64.75999999999976" y="40" as="sourcePoint" />
+            <mxPoint x="65" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-80" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1509,&amp;quot;end&amp;quot;:2202},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1559,&amp;quot;end&amp;quot;:2130},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:1622,&amp;quot;end&amp;quot;:2130},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:2046,&amp;quot;end&amp;quot;:2130}]&quot;&gt;&lt;strong&gt;Удивление (surprise)&lt;/strong&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Pinn6hETG48Ia0Fb6Zpw-77">
+          <mxGeometry width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-88" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1509,&amp;quot;end&amp;quot;:2202},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1559,&amp;quot;end&amp;quot;:2130},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:1622,&amp;quot;end&amp;quot;:2130},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1960,&amp;quot;end&amp;quot;:2042}]&quot;&gt;Назвать эмоцию&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Pinn6hETG48Ia0Fb6Zpw-77">
+          <mxGeometry y="80" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-81" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="366.9999999999998" y="640" as="sourcePoint" />
+            <mxPoint x="300" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-82" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="213" y="930" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-67" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1509,&amp;quot;end&amp;quot;:2202},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1559,&amp;quot;end&amp;quot;:2130},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:1622,&amp;quot;end&amp;quot;:2130},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1884,&amp;quot;end&amp;quot;:1956}]&quot;&gt;Поздравить с тем, что испытывает пользователь и поддержать его&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Pinn6hETG48Ia0Fb6Zpw-82">
+          <mxGeometry x="-100" y="-10" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-71" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1509,&amp;quot;end&amp;quot;:2202},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1559,&amp;quot;end&amp;quot;:2130},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:1622,&amp;quot;end&amp;quot;:2130},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1960,&amp;quot;end&amp;quot;:2042}]&quot;&gt;Поздравить пользователя с прекрасным чувством&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="283.5" y="910" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-91" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="524.8299999999998" y="870" as="sourcePoint" />
+            <mxPoint x="525.07" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-79" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1509,&amp;quot;end&amp;quot;:2202},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1559,&amp;quot;end&amp;quot;:2130},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:1622,&amp;quot;end&amp;quot;:2130},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:2046,&amp;quot;end&amp;quot;:2130}]&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Поздравить с тем, что испытывает пользователь и п&lt;/span&gt;ожелать ему приятных сюрпризов&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="460" y="910" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-92" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="446.9999999999998" y="630" as="sourcePoint" />
+            <mxPoint x="550" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-93" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="690" as="sourcePoint" />
+            <mxPoint x="360" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-94" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="366.9999999999998" y="670" as="sourcePoint" />
+            <mxPoint x="180" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-95" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Pinn6hETG48Ia0Fb6Zpw-80">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="427.9999999999998" y="690" as="sourcePoint" />
+            <mxPoint x="474" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-65" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="120" y="760" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-66" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="Pinn6hETG48Ia0Fb6Zpw-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="64.75999999999976" y="40" as="sourcePoint" />
+            <mxPoint x="65" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-68" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1509,&amp;quot;end&amp;quot;:2202},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1559,&amp;quot;end&amp;quot;:2130},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:1622,&amp;quot;end&amp;quot;:2130},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1884,&amp;quot;end&amp;quot;:1956}]&quot;&gt;&lt;strong&gt;Страх (fear)&lt;/strong&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Pinn6hETG48Ia0Fb6Zpw-65">
+          <mxGeometry width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-84" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1509,&amp;quot;end&amp;quot;:2202},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1559,&amp;quot;end&amp;quot;:2130},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:1622,&amp;quot;end&amp;quot;:2130},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1960,&amp;quot;end&amp;quot;:2042}]&quot;&gt;Назвать эмоцию&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Pinn6hETG48Ia0Fb6Zpw-65">
+          <mxGeometry y="80" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-58" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1509,&amp;quot;end&amp;quot;:2224},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1559,&amp;quot;end&amp;quot;:2152},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:1622,&amp;quot;end&amp;quot;:2152},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1788,&amp;quot;end&amp;quot;:1902}]&quot;&gt;Дать совет на основе сообщения пользователя&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="630" y="630" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-86" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="184.79999999999978" y="880" as="sourcePoint" />
+            <mxPoint x="185.04000000000002" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-101" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="Pinn6hETG48Ia0Fb6Zpw-71" target="Pinn6hETG48Ia0Fb6Zpw-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="1000" as="sourcePoint" />
+            <mxPoint x="380" y="950" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-102" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;entryX=0.023;entryY=0.637;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Pinn6hETG48Ia0Fb6Zpw-67" target="Pinn6hETG48Ia0Fb6Zpw-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="213" y="1060" as="sourcePoint" />
+            <mxPoint x="350" y="1050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-103" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pinn6hETG48Ia0Fb6Zpw-75" target="Pinn6hETG48Ia0Fb6Zpw-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="740" as="sourcePoint" />
+            <mxPoint x="330" y="1100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-140" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-104" value="" style="endArrow=classic;html=1;rounded=0;curved=1;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Pinn6hETG48Ia0Fb6Zpw-79" target="Pinn6hETG48Ia0Fb6Zpw-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="1030" as="sourcePoint" />
+            <mxPoint x="630" y="980" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-105" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;entryX=0.959;entryY=0.72;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Pinn6hETG48Ia0Fb6Zpw-19" target="Pinn6hETG48Ia0Fb6Zpw-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="890" as="sourcePoint" />
+            <mxPoint x="650" y="1070" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="880" />
+              <mxPoint x="780" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-106" value="" style="endArrow=classic;html=1;rounded=0;curved=1;entryX=0.633;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Pinn6hETG48Ia0Fb6Zpw-58" target="Pinn6hETG48Ia0Fb6Zpw-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="763" y="670" as="sourcePoint" />
+            <mxPoint x="520" y="1118" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="970" y="1200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-107" value="&lt;strong&gt;Другая эмоция&lt;/strong&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="610" y="920" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-108" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="674.6999999999998" y="960" as="sourcePoint" />
+            <mxPoint x="674.94" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-109" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:1509,&amp;quot;end&amp;quot;:2202},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1559,&amp;quot;end&amp;quot;:2130},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:1622,&amp;quot;end&amp;quot;:2130},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:1622,&amp;quot;end&amp;quot;:1700}]&quot;&gt;Отреагировать и предложить обсудить эмоцию&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1000" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-111" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="Pinn6hETG48Ia0Fb6Zpw-4" target="Pinn6hETG48Ia0Fb6Zpw-107">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="810" as="sourcePoint" />
+            <mxPoint x="680" y="870" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="710" />
+              <mxPoint x="630" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pinn6hETG48Ia0Fb6Zpw-112" value="" style="endArrow=classic;html=1;rounded=0;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.976;entryY=0.381;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Pinn6hETG48Ia0Fb6Zpw-109" target="Pinn6hETG48Ia0Fb6Zpw-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="1150" as="sourcePoint" />
+            <mxPoint x="590" y="1140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
