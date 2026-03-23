@@ -16,7 +16,7 @@
    Для установки выполнить команду:  
    `!pip install transformers torch deep-translator pandas`
 
-2. Открыть `chatbot_final.ipynb` в JupyterLab.
+2. Открыть `chatbot_final.ipynb`.
 
 3. Запустить единственную ячейку кода.
 
